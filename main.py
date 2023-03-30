@@ -8,6 +8,7 @@ work_book = load_workbook("flipkart_product_data.xlsx")
 work_sheet = work_book.active
 
 # I have used this url to scrap the data about mobiles.
+# This url is valid for only page 1.To get more pages just change the value of page=1 to 2,3... or whatever you want in the url end.
 URL = "https://www.flipkart.com/search?q=mobiles&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page=1"
 
 # Use your own user agent here.This is my user agent.Just head to google chrome and type my user agent to get yours.
